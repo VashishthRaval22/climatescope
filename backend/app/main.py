@@ -25,9 +25,11 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://climatescope-pi.vercel.app",
+        "https://climatescope-8b91mpkni-vashi1.vercel.app",
     ],
     allow_credentials=False,
-    allow_methods=["GET"],
+    allow_methods=["GET", "OPTIONS"],
     allow_headers=["*"],
 )
 
