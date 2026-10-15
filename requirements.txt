@@ -1,0 +1,10 @@
+
+fastapi
+uvicorn[standard]
+httpx
+pandas
+numpy
+pymongo
+python-dotenv
+pytest
+statsmodels>=0.14,<1.0
